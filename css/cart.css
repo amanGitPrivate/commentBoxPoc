@@ -1,0 +1,253 @@
+.circle{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.colored{
+background-color: orange;
+}
+.productDetailsWrapper{
+  
+}
+.productNameWrapper{
+    display: inline-block;
+	top: -25px;
+	position: relative;
+}
+.buttonContainer{
+    display: inline-block;
+    width: 20%;
+	position: relative;
+	top: 42px;
+	text-align: center;
+}
+.headerWrapper{
+	font-size: 40px;
+	padding: 20px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #F8f8f8;
+	border: 1px solid #d5d5d5;
+	height: 60%;
+	width: 100%;
+}
+.siteBanner{
+	width: 90%;
+	display: inline-block;
+	top: -10px;
+	position: relative;
+	margin-left: 10px;
+}
+.totAmout{
+	font-weight: 600;
+	margin-left: 5px;
+}
+.cartImageProdDetailpage{
+	display: inline-block;
+	position: relative;
+	top: -5px;
+}
+.totalWrapper{
+	display: inline-block;
+}
+.siteImage{
+	display: inline-block;
+}
+.calorieNumber{
+	font-size: 40px;
+}
+.descriptionWrapper{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #95A7B0;
+}
+.selectedProductImg{
+	height: 40px;
+	top: 15px;
+	position: relative;
+}
+tr{
+	 border: 1px solid #D5d5d5;
+	 height: 50px;
+}
+table{
+	border-collapse: collapse;
+}
+.totalRow{
+	background: #F8f8f8;
+}
+td{
+	font-size: 14px;
+	border-right: 1px solid #D5d5d5;
+}
+.searchCart{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.clickTag{
+	cursor: pointer;
+	color: rgb(65, 157, 220);
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+}
+.siteWrapper{
+	width: 80%;
+	margin:0 auto;
+}
+.totalValueProduct{
+	color: rgb(65, 157, 220);
+	text-align: right;
+	padding-right: 20px;
+}
+.totalValue{
+	color: rgb(65, 157, 220);
+	text-align: right;
+	padding-right: 20px;
+	display: inline-block;
+}
+.allProductTable{
+	width: 100%;
+	height: 70%;
+}
+.allProductTable tr:first-child{
+	height: 40px;
+}
+.allProductTable tr:last-child{
+	height: 40px;
+}
+.allProductTable tr td:nth-child(2){
+	text-align: left;
+	padding: 5px 5px 15px;
+}
+.allProductTable tr td:nth-child(3){
+	text-align: right;
+	padding: 0px 5px 10px 0px;
+}
+.allProductTable tr td:nth-child(4){
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+.totalRow td{
+	padding: 0px 0px 0px 0px !important;
+	text-align: right !important;
+}
+.totalRow td img{
+	height: 20px !important;
+	position: relative;
+	top: 5px;
+	left: -10px;
+}
+.productDetailsWrapper{
+	width: 100%;
+}
+.productNameWrapper{
+	width: 80%;
+}
+.productNameWrapper table{
+	width: 100%;
+}
+.addToCart{
+	width: 100%;
+	height: 20px;
+	background-color: green;
+	margin-left: 20px;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+.backToStore{
+	height: 20px;
+	background-color: grey;
+	margin-left: 20px;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	width: 100%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.productTagLineWrapper{
+	margin: 10px;
+	color: rgb(65, 157, 220);
+}
+.productNameWrapper tr:last-child{
+	height: 30px;
+}
+.productNameWrapper tr td:nth-child(1){
+	text-align: center;
+	font-weight: 600;
+}
+.productNameWrapper tr td:nth-child(2){
+		text-align: center;
+	    font-weight: 600;
+}
+.productNameWrapper tr td:nth-child(3){
+		text-align: left;
+		padding: 0px 0px 0px 10px;
+}
+.cartItemsWrapper{
+	width: 80%;
+	display: inline-block;
+}
+.cartItemsWrapper table{
+	width: 100%;
+	margin-top: 20px;
+}
+.cartWrapper .buttonContainer{
+	top: -137px;
+}
+.cartWrapper tr:first-child{
+	font-weight: 600;
+	background-color: #F8f8f8;
+}
+.cartWrapper tr:last-child{
+	font-weight: 600;
+	background-color: #F8f8f8;
+}
+.quantitybuttons{
+	display: inline-block;
+	padding: 10px 0px;
+	border: 1px solid black;
+	border-radius:4px; 
+	width: 30px;
+	text-align: center;
+	margin-right: 2px;
+}
+.imageContainer{
+	text-align: center;
+}
+img{
+	height: 50px;
+}
+
+input:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+input-moz-placeholder {
+    color: #b5b5b5;
+}
+
+input {
+    width: 270px;
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
